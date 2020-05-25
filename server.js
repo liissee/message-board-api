@@ -151,6 +151,7 @@ app.delete("/messages/:id", async (req, res) => {
   if (author === userId) {
     try {
       const deletedMessage = await Message.findOneAndDelete({ _id: messageId, author })
+      const deletedReplies = await Message.find({ parentId: messageId }).deleteMany()
       if (deletedMessage !== null) {
         res.status(200).json({ message: `Successfully deleted message with id: ${deletedMessage._id}` })
       } else {

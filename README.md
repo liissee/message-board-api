@@ -25,7 +25,7 @@ This is a “single page application” with a public message board app with the
 - MongoDB, Mongoose
 - Material UI
 - bcrypt
-- 
+
 
 ## Getting started
 
