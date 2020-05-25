@@ -44,4 +44,4 @@ Front end:
 https://message-board-liissee.netlify.app/
 
 Back end: 
-https://linda-mongo-api.herokuapp.com/ 
+https://linda-messageboard-api.herokuapp.com/
