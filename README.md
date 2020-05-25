@@ -40,4 +40,8 @@ Back End: https://github.com/liissee/message-board-api
 - Open http://localhost:8080 to view it in the browser.
 
 ## Deployed version:
+Front end:
 https://message-board-liissee.netlify.app/
+
+Back end: 
+https://linda-mongo-api.herokuapp.com/ 
